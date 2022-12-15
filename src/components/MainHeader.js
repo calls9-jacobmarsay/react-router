@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import classes from "./styles/MainHeader.module.css";
 const MainHeader = () => {
   return (
@@ -6,10 +6,10 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            <Link to="./welcome">Welcome</Link>
+            <NavLink to="./welcome">Welcome</NavLink>
           </li>
           <li>
-            <Link to="./products">Products</Link>
+            <NavLink to="./products">Products</NavLink>
           </li>
         </ul>
       </nav>
